@@ -4,7 +4,7 @@ The Senovative Liveness SDK provides a native Android solution for liveness dete
 
 ## Prerequisites
 - Minimum SDK: 24
-- Compile/Target SDK: 37 (or as per your app)
+- Compile/Target SDK: 37
 - Kotlin 1.9.0+ / 2.0+
 
 ## Installation
