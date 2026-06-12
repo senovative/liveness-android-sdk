@@ -1,0 +1,182 @@
+[versions]
+agp = "9.1.1"
+foundation = "1.8.3"
+kotlin = "2.4.0"
+coreKtx = "1.19.0"
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+lifecycleRuntimeKtx = "2.10.0"
+lifecycle = "2.10.0"
+lifecycle-viewmodel-compose = "2.10.0"
+activityCompose = "1.13.0"
+composeBom = "2026.05.01"
+appcompat = "1.7.1"
+material = "1.13.0"
+retrofit = "3.0.0"
+navigation = "2.9.8"
+navigation-compose = "2.9.8"
+moshi_con = "3.0.0"
+recycler-view = "1.4.0"
+viewpager = "1.1.0"
+glide = "5.0.5"
+okhttp = "5.4.0"
+gson = "2.13.2"
+dagger = "2.59.2"
+room = "2.8.4"
+moshi = "1.15.2"
+biometric = "1.1.0"
+lottie = "6.6.10"
+shimmer = "0.5.0"
+constraint = "2.2.1"
+constraint-compose = "1.1.1"
+camerax = "1.6.1"
+barcode_scanning_mlkit = "17.3.0"
+timber = "5.0.1"
+worker = "2.11.2"
+paging = "3.3.6"
+security_crypto = "1.1.0"
+jwt_decode = "2.0.2"
+zxing = "3.5.3"
+journey-zxing = "4.3.0"
+ksp = "2.3.9"
+compile = "37"
+target = "37"
+minimum = "24"
+version-code = "1"
+version-name = "1.0.0"
+accompanist-flowlayout = "0.36.0"
+accompanist-permissions = "0.37.3"
+accompanist-systemuicontroller = "0.36.0"
+lottie-compose = "6.6.10"
+kotlinx-coroutines-android = "1.10.2"
+coil-compose = "2.7.0"
+transportRuntime = "4.0.0"
+converter-gson = "3.0.0"
+hilt-navigation-compose = "1.3.0"
+runtimeLivedata = "1.10.6"
+play-services-mlkit-text-recognition = "19.0.1"
+object-detection-custom = "17.0.2"
+play-services-mlkit-face-detection= "17.1.0"
+gpuimage = "2.2.0"
+exifinterface = "1.4.1"
+navigationFragmentKtx = "2.9.5"
+navigationUiKtx = "2.9.5"
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-common-java8 = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycle" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinx-coroutines-android" }
+
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-foundation = { group = "androidx.compose.foundation", name = "foundation" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle-viewmodel-compose" }
+coil_compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil-compose" }
+
+lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottie-compose" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
+accompanist-flowlayout = { group = "com.google.accompanist", name = "accompanist-flowlayout", version.ref = "accompanist-flowlayout" }
+accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist-permissions" }
+accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist-systemuicontroller" }
+androidx-compose-material-icon = { group = "androidx.compose.material", name = "material-icons-extended" }
+androidx-compose-material = { group = "androidx.compose.material", name = "material" }
+androidx-constraint-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraint-compose" }
+
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraint = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraint" }
+androidx-worker = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "worker" }
+androidx-paging = { group = "androidx.paging", name = "paging-runtime-ktx", version.ref = "paging" }
+androidx-security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "security_crypto" }
+
+navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigation" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+
+recycler-view = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recycler-view" }
+
+viewpager = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "viewpager" }
+
+journey-zxing = { group = "com.journeyapps", name = "zxing-android-embedded", version.ref = "journey-zxing" }
+
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-converter-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "moshi_con" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "converter-gson" }
+
+moshi = { group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshi" }
+moshi-codegen = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi" }
+
+play-services-mlkit-text-recognition = { group = "com.google.android.gms", name = "play-services-mlkit-text-recognition", version.ref = "play-services-mlkit-text-recognition" }
+mlkit-detection = { group = "com.google.mlkit", name = "object-detection-custom", version.ref = "object-detection-custom" }
+mlkit-face-detection = { group = "com.google.android.gms", name = "play-services-mlkit-face-detection", version.ref = "play-services-mlkit-face-detection" }
+
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp-bom", version.ref = "okhttp" }
+okhttp-module = { module = "com.squareup.okhttp3:okhttp" }
+okhttp-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor" }
+
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-okhttp3 = { group = "com.github.bumptech.glide", name = "okhttp3-integration", version.ref = "glide" }
+
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+
+gpuimage = { group = "io.github.goooler.gpuimage", name = "gpuimage", version.ref = "gpuimage" }
+exifinterface = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exifinterface" }
+
+biometric = { group = "androidx.biometric", name = "biometric", version.ref = "biometric" }
+
+dagger = { group = "com.google.dagger", name = "dagger", version.ref = "dagger" }
+dagger-android = { group = "com.google.dagger", name = "dagger-android", version.ref = "dagger" }
+dagger-android-support = { group = "com.google.dagger", name = "dagger-android-support", version.ref = "dagger" }
+dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "dagger" }
+dagger-compiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "dagger" }
+dagger-android-processor = { group = "com.google.dagger", name = "dagger-android-processor", version.ref = "dagger" }
+hilt-navigation = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-navigation-compose" }
+
+room = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
+
+shimmer = { group = "com.facebook.shimmer", name = "shimmer", version.ref = "shimmer" }
+
+ml-kit-barcode-scanning = { group = "com.google.mlkit", name = "barcode-scanning", version.ref = "barcode_scanning_mlkit" }
+
+jwt-decode = { group = "com.auth0.android", name = "jwtdecode", version.ref = "jwt_decode" }
+
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+
+zxing = { group = "com.google.zxing", name = "core", version.ref = "zxing" }
+
+camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "camerax" }
+camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax" }
+camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax" }
+camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax" }
+
+transport-runtime = { group = "com.google.android.datatransport", name = "transport-runtime", version.ref = "transportRuntime" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+navigation-plugin = { id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation" }
+devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+dagger-hilt-plugin = { id = "com.google.dagger.hilt.android", version.ref = "dagger" }
