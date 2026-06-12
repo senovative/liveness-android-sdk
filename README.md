@@ -41,24 +41,27 @@ The SDK requires camera permissions. These are automatically merged into your ap
 Ensure you request runtime permissions for `android.permission.CAMERA` before launching the liveness flow.
 
 ### Integration in Jetpack Compose
-The SDK exposes composable screens and utilities for Liveness Detection. You can integrate `LivenessDetectionScreen` into your navigation graph or activity.
+The SDK exposes composable screens and utilities for Liveness Detection. You can integrate `LivenessDetectionRoute` into your navigation graph or activity.
 
 ```kotlin
-import io.senovative.liveness.sdk.view.LivenessDetectionScreen
+import io.senovative.liveness.sdk.view.LivenessDetectionRoute
 
 // Inside your Compose Activity or Navigation Host
-LivenessDetectionScreen(
-    onSuccess = { result -> 
-        // Handle successful liveness check
-        val bitmap = result.image
+LivenessDetectionRoute(
+    onResult = { result -> 
+        if (result.isLive) {
+            // Handle successful liveness check
+            // e.g. show success message
+        } else {
+            // Handle failure or timeout
+            // result.message contains error info
+        }
     },
-    onError = { error ->
-        // Handle errors
+    onBack = {
+        // Handle when user presses the close/back button
     }
 )
 ```
-
-*(Note: Adjust the composable calls and parameters based on your SDK's exact exposed API `LivenessDetectionScreen` arguments)*
 
 ## License
 Specify your license here.
