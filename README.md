@@ -30,11 +30,9 @@ Add the following dependency to your `app/build.gradle.kts` file:
 
 ```kotlin
 dependencies {
-    implementation("com.github.YOUR_GITHUB_USERNAME:liveness-android-sdk:Tag")
+    implementation("com.github.senovative:liveness-android-sdk:<version>")
 }
 ```
-> [!IMPORTANT]
-> Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username, and `Tag` with the release version (e.g., `1.0.0`) once you create a release on GitHub.
 
 ## Usage
 
